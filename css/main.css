@@ -86,4 +86,38 @@ footer {
  ##########################################################
 */
 
-/* Write your CSS here */
+figure {
+  float:right;
+  margin: .5em;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  width: 300px;
+  padding: 6px;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-style: italic;
+}
+
+main::first-letter {
+  font-size: 5rem;
+  float: left;
+  font-style: normal;
+  background-color: #666;
+  color: #fff;
+  padding: .1em .2em;
+  margin: .5rem;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+blockquote {
+  float: left;
+  width: 300px;
+  font-size: 1.5rem;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  margin: .5em;
+  color: #666;
+}
