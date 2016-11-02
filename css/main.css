@@ -88,11 +88,11 @@ footer {
 
 figure {
   float: right;
-  margin: .5em;
   border-top: 3px solid #000;
   border-bottom: 3px solid #000;
   width: 300px;
   padding: 6px;
+  margin: 0px -100px 6px 0px;
 }
 
 figcaption {
@@ -118,12 +118,8 @@ blockquote {
   font-size: 1.5rem;
   border-top: 3px solid #000;
   border-bottom: 3px solid #000;
-  margin: .5em;
   color: #666;
-  padding: 6px 0;
-}
-
-main {
-  clear: both;
-
+  padding: 0px 6px 6px 0px;
+  text-align: right;
+  margin: 6px 6px 6px -100px;
 }
